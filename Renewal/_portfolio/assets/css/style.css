@@ -51,20 +51,36 @@ h1,div,span,p {font-family: 'Roboto','NotoSans';}
 .about {
     
 }
-.about .inner {
-    text-align: center;
+.about .inner {  
+    text-align: center;  
 }
 
 .about .inner h1 {
     padding-top: 50px;
 }
 
-.about .inner span {
+.about .inner .tit-txt span {
     color: #444;
 }
 
+.about .inner .left .photo img {
+    display: block;
+}
+
+.about .inner .flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+.about .inner .flex-box .right {
+    padding-top: 130px;
+    padding-left: 50px;
+    
+}
+ 
 .content-box .box h2 {
-    padding-top: 20px;
+    text-align: left;
+    padding-bottom: 25px;
 }
 
 .content-box .box .txt-list{
@@ -83,4 +99,22 @@ h1,div,span,p {font-family: 'Roboto','NotoSans';}
 
 .content-box .box .txt-list ul li {
     line-height: 2;
+}
+
+.portfolio {
+
+}
+
+.portfolio .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio .inner .tit-txt {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.portfolio .inner .container {
+    padding-top: 50px;
 }
