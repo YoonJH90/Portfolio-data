@@ -1,0 +1,35 @@
+.wrap{
+  background-color: #8e6a5d;
+  max-width: 1920px;
+  height: 5000px;
+  margin: 0 auto;
+  .hd{
+    height: 697px;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .inner{
+      max-width: 1280px;
+      margin: 0 auto;
+      .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo img{
+          max-width: 200px;
+        }
+        .gnb{
+          display: flex;
+          .dep1{
+            padding-left: 40px;
+            a{
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+        }
+      }    
+    }
+  }
+}
