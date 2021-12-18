@@ -1,0 +1,307 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+li {list-style: none;}
+a {color: #000; text-decoration: none;}
+h1,div,span,p {font-family: 'Roboto','NotoSans';}
+
+.wrap {
+    max-width: 1920px;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hd {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hd .nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd .nav .logo {
+    color: #692f07;
+}
+
+.hd .nav .gnb {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hd .nav .gnb .dep1 {
+    padding-right: 15px;
+}
+
+.hd .nav .gnb .dep1 a {
+    color: #692f07;
+    font-size: 20px;
+}
+
+.main {
+    width: 1200px;    
+    margin: 0 auto;
+    
+}
+
+.main .inner {
+    background-image: url(../images/BA01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 746PX;
+    margin-top: 15px;
+    position: relative;    
+}
+
+.main .inner .banner {
+    position: absolute;
+    top: 0;
+    transform: translate(25%, 125%);
+}
+
+.main .inner .banner span {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.main .inner .banner p {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.main .inner .banner div {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+.bedroom .inner .content {
+    margin-top: 100px;
+
+}
+
+.bedroom .inner .content .con-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bedroom .inner .content .con-tit {
+    color: #692f07;
+    font-size: 30px;
+}
+
+.bedroom .inner .content .img-list{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.bedroom .inner .content .img-list li {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.bedroom .inner .content .img-list li:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.bedroom .inner .content .img-list img {
+    width: 390px;
+    height: 240px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.livingroom .inner .content {
+    margin-top: 100px;    
+}
+
+.livingroom .inner .content .con-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.livingroom .inner .content .con-tit {
+    color: #692f07;
+    font-size: 30px;
+}
+
+.livingroom .inner .content .img-list{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+.livingroom .inner .content .img-list li {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.livingroom .inner .content .img-list li:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.livingroom .inner .content .img-list img {
+    width: 390px;
+    height: 240px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.more a{
+    color: #692f07;
+}
+
+.etc .inner .content {
+    margin-top: 100px;    
+}
+
+.etc .inner .content .con-tit {
+    color: #692f07;
+    font-size: 30px;
+}
+
+.etc .inner .content .img-list{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+.etc .inner .content .img-list img {
+    width: 290px;
+    height: 217px;    
+}
+
+.etc .inner .content .img-list li strong {
+    color: #692f07;
+    font-size: 22px;
+    line-height: 2.5;
+}
+
+.etc .inner .content .img-list li span {
+    color: #692f07;
+    font-size: 16px;    
+}
+
+.etc .content .slick {
+    position: relative;
+}
+
+.etc .content .slick button {
+    position: absolute;
+    z-index: 10;
+    top: 28%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    
+}
+
+.etc .content .slick button::before {
+    font-family: 'xeicon';
+    color: #000;
+    font-size: 40px;
+}
+
+.etc .content .slick .slick-next {
+    right: 1%;
+    font-size: 0;
+    color: transparent;
+}
+
+.etc .content .slick .slick-prev {
+    left: 0;
+    font-size: 0;
+    color: transparent;
+}
+
+.etc .content .slick .slick-next::before {
+    content: "\e93f";    
+}
+
+.etc .content .slick .slick-prev::before {
+    content: "\e93c";    
+}
+
+.ft {
+    height: 200px;
+    background-color: #000;
+    margin-top: 100px;
+}
+
+.ft .inner {
+    text-align: center;
+}
+
+.ft .logo {
+    font-size: 60px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.ft .foot-top .foot-list {
+    display: flex;
+    justify-content: center;
+}
+
+.ft .foot-top .foot-list li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.ft .foot-top .foot-list li:last-child {
+    font-weight: bold;
+}
+
+.ft .foot-top .foot-list li::after {
+    content: "｜";
+    color: #fff;
+}
+
+.ft .foot-top .foot-list li:last-child::after {
+    content: '';
+}
+
+.ft .foot-btt {    
+    color: #fff;
+    font-size: 14px;
+}
+
+.ft .foot-btt li:first-child {
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+

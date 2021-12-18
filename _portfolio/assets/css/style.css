@@ -1,0 +1,120 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+li {list-style: none;}
+a {color: #000; text-decoration: none;}
+h1,div,span,p {font-family: 'Roboto','NotoSans';}
+
+.wrap {
+    width: 1920px;    
+}
+
+.banner {
+    width: 100%;
+
+}
+
+.banner img {
+    width: 100%;
+    height: 950px;
+}
+
+.hd {
+    width: 1920px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.281);
+    position: fixed;
+
+}
+
+.hd .gnb {    
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.hd .gnb .dep1 {
+    line-height: 3.7;
+}
+
+.hd .gnb .dep1 a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.hd .gnb .dep1 a:hover {
+    color: #fff;
+}
+
+.hd .gnb .dep1:hover {
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.about {
+    
+}
+.about .inner {  
+    text-align: center;  
+}
+
+.about .inner h1 {
+    padding-top: 50px;
+}
+
+.about .inner .tit-txt span {
+    color: #444;
+}
+
+.about .inner .left .photo img {
+    display: block;
+}
+
+.about .inner .flex-box {
+    display: flex;
+    justify-content: center;
+}
+
+.about .inner .flex-box .right {
+    padding-top: 130px;
+    padding-left: 50px;
+    
+}
+ 
+.content-box .box h2 {
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.content-box .box .txt-list{
+    display: flex;
+    justify-content: center;    
+}
+
+.content-box .box .txt-list .txt-info {
+    text-align: left;
+}
+
+.content-box .box .txt-list .txt-info2 {
+    text-align: left;
+    padding-left: 60px;
+}
+
+.content-box .box .txt-list ul li {
+    line-height: 2;
+}
+
+.portfolio {
+
+}
+
+.portfolio .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.portfolio .inner .tit-txt {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.portfolio .inner .container {
+    padding-top: 50px;
+}
