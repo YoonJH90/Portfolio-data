@@ -1,34 +1,37 @@
+/* [TODO] 리셋스타일 웹디자인기능사처럼 작업하지 않기~!(* 전체 태그에 주는것은 좋지 않은 코딩 습관입니당~! 폰트 같은 경우도 폰트는 상속되는 속성이기 때문에 최상위 아이에게만 줘도 무방합니다~! [물론 예외가 있긴 하지만~~! 해당 예외는 주한님이 해주신것처럼 해당 태그에 직접 넣어주시면 되시겠죵~!]) 1) 제공드린 코드에서 필요한것만 뽑아서 작업하시거나 2)다른사이트나, 블로그에 있는 reset 참고하셔서 modernize reset css 불러와서 사용하시거나~! */
 * {margin: 0; padding: 0; box-sizing: border-box;}
 li {list-style: none;}
 a {color: #000; text-decoration: none;}
 h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
 
-.wrap {
-    width: 1920px;    
+.wrap {   
+    
 }
 
 .banner {
     width: 100%;
-
 }
 
 .banner img {
     width: 100%;
-    height: 950px;
+    height: auto;
 }
 
 .hd {
-    width: 1920px;
+    width: 100%;
     height: 60px;
     background-color: rgba(255, 255, 255, 0.281);
     position: fixed;
+}
 
+.hd .inner {
+    text-align: center;
 }
 
 .hd .gnb {    
     display: flex;
     justify-content: space-evenly;
-    height: 60px;
+    height: 60px;    
 }
 
 .hd .gnb .dep1 {
@@ -48,6 +51,7 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
     font-weight: bold;
     transition: all 0.3s;
 }
+/* [TODO] 스타일 작업할때 .inner(레이아웃용 스타일) 타고 들어가지 않기(후에 inner가 유지보수시 마크업에서 없어진다고 생각하면~! 스타일을 다 벗겨내야하는 일이 발생을 하겟죵?!) */
 .about {
     
 }
@@ -103,14 +107,15 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
 .content-box .box .txt-list ul li {
     line-height: 2;
 }
-
+/* [TODO] 스타일 작업할때 .inner(레이아웃용 스타일) 타고 들어가지 않기(후에 inner가 유지보수시 마크업에서 없어진다고 생각하면~! 스타일을 다 벗겨내야하는 일이 발생을 하겟죵?!) */
 .portfolio {
-    
+    height: 100px;
 }
 
 .portfolio .inner {
     width: 1200px;
     margin: 0 auto;
+    height: 100px;
 }
 
 .portfolio .inner .tit-txt h2 {
@@ -150,9 +155,14 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
 }
 
 .portfolio .tabs-panel {
+    display: none;
+}
+
+.portfolio .tabs-panel.active {
     display: flex;
     justify-content:space-evenly;
 }
+
 
 .portfolio .tabs-panel .left {
     margin-top: 100px;
@@ -173,7 +183,7 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
 
 .portfolio .tabs-panel .left .btn::before {
     content: "";
-    position: absolute;
+    position: absolute;    
     background-color: #000;
     width: 100%;
     height: 100%;
