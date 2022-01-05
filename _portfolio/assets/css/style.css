@@ -12,7 +12,7 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
     width: 100%;
 }
 
-.banner img {
+.banner h2 img {
     width: 100%;
     height: auto;
 }
@@ -59,26 +59,26 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
     text-align: center;  
 }
 
-.about .inner h1 {
+.about h1 {
     padding-top: 50px;
     font-size: 50px;
 }
 
-.about .inner .tit-txt span {
+.about .tit-txt span {
     color: #444;
     line-height: 2;
 }
 
-.about .inner .left .photo img {
+.about .left .photo img {
     display: block;
 }
 
-.about .inner .flex-box {
+.about .flex-box {
     display: flex;
     justify-content: center;
 }
 
-.about .inner .flex-box .right {
+.about .flex-box .right {
     padding-top: 130px;
     padding-left: 50px;
     
@@ -118,39 +118,39 @@ h1,h2,div,span,p {font-family: 'Roboto','NotoSans';}
     height: 100px;
 }
 
-.portfolio .inner .tit-txt h2 {
+.portfolio .tit-txt h2 {
     text-align: center;
     padding-top: 100px;
     font-size: 50px;
 }
 
-.portfolio .inner .tabs-nav {
+.portfolio .tabs-nav {
     display: flex;
     justify-content: center
 }
 
-.portfolio .inner .tabs-nav li {
+.portfolio .tabs-nav li {
     margin-left: 80px;
     margin-top: 30px;
     padding: 0 10px;
     font-size: 26px;
 }
 
-.portfolio .inner .tabs-nav li:hover {
+.portfolio .tabs-nav li:hover {
     background-color: #000;
     border-radius: 10px;
 }
 
-.portfolio .inner .tabs-nav a:hover{
+.portfolio .tabs-nav a:hover{
     font-weight: bold;
     color: #fff;
 }
 
-.portfolio .inner .tabs-nav a.active {
+.portfolio .tabs-nav a.active {
     font-weight: bold;
 }
 
-.portfolio .inner .tabs-panel {
+.portfolio .tabs-panel {
     padding-top: 50px;
 }
 
